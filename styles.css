@@ -35,15 +35,32 @@ html, body {
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
-    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-}
+  /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 
+  body {
+        font-size: 20 ;
+      }
+      img{
+        max-width: 85%;
+        margin: 0 auto;
+
+
+      }
+
+      .container {
+      max-width: 745px;
+      margin: 0 auto;
+}
+}
 @media(min-width: 729px) {
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
 
       img{
         max-width: 85%;
         margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
 
       }
 
