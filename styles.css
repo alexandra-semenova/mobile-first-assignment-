@@ -36,6 +36,7 @@ html, body {
 
 @media(min-width: 681px) {
   /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+<<<<<<< master
 
   body {
         font-size: 20px;
@@ -45,6 +46,19 @@ html, body {
         margin: 0 auto;
 
 
+=======
+
+  body {
+        font-size: 20px;
+      }
+      img{
+        max-width: 85%;
+        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+
+>>>>>>> local
       }
 
       .container {
@@ -58,6 +72,10 @@ html, body {
       img{
         max-width: 85%;
         margin: 0 auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
 
       }
 
